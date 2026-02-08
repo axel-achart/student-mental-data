@@ -1,4 +1,4 @@
-# Analyse de la santé mentale étudiante — Projet d'exploration de données
+# Analyse de la santé mentale étudiante — Projet d'exploration de données (In French)
 
 ## Introduction
 
@@ -20,7 +20,6 @@ Vous l'avez bien compris, ce projet a pour but de m'entraîner et à perfectionn
 - Types : mix de variables catégorielles, Likert, et numériques.
 ## Résumé des analyses (insights attendus)
 
-- X% des étudiants déclarent des niveaux élevés de stress.
 - Corrélation notable entre privation de sommeil et niveaux d'anxiété (corrélation, non causalité).
 - Charge académique élevée corrélée avec des scores de stress plus élevés.
 - Profils étudiants identifiés via clustering : (1) stress élevé / faible soutien, (2) stress modéré / bon sommeil, (3) faible stress / soutiens présents.
@@ -47,3 +46,59 @@ Les facteurs potentiels identifiés par corrélation comprennent : surcharge aca
 - Analyse statistique descriptive et corrélations (Spearman)
 - Clustering et détection de profils
 - Communication claire des limites et biais
+
+---
+
+# Student Mental Health Analysis — Exploratory Data Project (English)
+
+## Introduction
+
+This project explores self-reported data on student mental health. The goal is to identify observable patterns and correlations (not diagnoses) and to propose data-driven recommendations for institutions and student support teams. The project also serves as a technical exercise to improve data skills.
+
+## Why this is useful
+
+- Understand the distribution of issues (stress, anxiety, depression) within student samples.
+- Highlight potential correlations (e.g., sleep and anxiety) to inform preventive actions.
+- Demonstrate skills in data cleaning, EDA, visualization, and simple analyses (clustering, correlations).
+
+## Data source
+
+- File: `data/raw/Student Mental health.csv` (original dataset available on [Kaggle](https://www.kaggle.com/datasets/aminasalamat/mental-health-of-students-dataset?resource=download)).
+- Type: CSV.
+
+## Dataset content
+
+- Key variables: indicators of anxiety/depression/stress, sleep habits, workload, gender, age, student status.
+- Types: mixture of categorical variables, Likert scales, and numeric fields.
+
+## Summary of analyses (expected insights)
+
+- Notable correlation between sleep deprivation and anxiety levels (correlation, not causation).
+- High academic workload correlates with higher stress scores.
+- Student profiles identified via clustering: (1) high stress / low support, (2) moderate stress / good sleep, (3) low stress / sufficient support.
+- Identified biases: self-reporting, non-representative sample, cultural biases.
+
+## Potential factors (cautious wording)
+
+Potential factors identified through correlation include academic overload, lack of psychological support, social isolation and financial pressure. These hypotheses require further professional and clinical study before any causal claim.
+
+## Data-driven recommendations
+
+- Strengthen and promote anonymous student support services.
+- Implement sleep-hygiene awareness programmes and practical workshops.
+- Establish regular anonymous statistical monitoring at the institutional level to detect trends.
+- Develop simple indicators (e.g., frequent insufficient sleep) to trigger early alerts.
+
+## How to use this repository
+
+1. Install dependencies listed in `requirements.txt`.
+2. Open `notebook.ipynb` and execute the cells in order.
+3. The notebook loads `data/raw/Student Mental health.csv` and produces the visualizations and analyses described.
+
+## Demonstrated skills
+
+- Data cleaning and preprocessing
+- Exploratory data analysis (EDA) and visualization
+- Descriptive statistics and correlation analysis (Spearman)
+- Clustering and profile detection
+- Clear communication of limitations and biases
